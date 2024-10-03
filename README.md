@@ -1,6 +1,12 @@
 # webpack-set
 in set up: webpack, react, ts, babel, scss, jest, rtl, eslint, prettier
 
+# .babelrc
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react", "@babel/preset-typescript"]
+}
+
+
 # .eslintrc.json
 {
   "env": {
